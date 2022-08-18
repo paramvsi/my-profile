@@ -1,0 +1,51 @@
+.SkillsSection { 
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h1 {
+    width: 100%;
+}
+
+.SkillList{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   padding: 40px;
+}
+
+.SkillItem {
+   list-style: none;
+   padding: 10px;
+}
+  
+.SkillImage {
+    width: 70px;
+    height: 70px;
+    border: none;
+}
+
+.SkillName {
+    width: 100%;
+    text-align: center;
+}
+
+.RotateItem {
+    animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .SkillList{
+        grid-template-columns: auto auto;
+        padding: 30px
+     }
+}

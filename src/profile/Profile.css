@@ -10,9 +10,10 @@
 }
 
 .ProfilePhoto{
-  flex-grow: 1;
+  
   text-align: right;
-  margin: 100px auto;
+  margin: 70px 20px 70px auto;
+  
 }
 
 img {
@@ -35,3 +36,46 @@ img {
 h1, p{
     width: 60%;
 }
+
+@media screen and (max-width: 800px) {
+  
+  h1, p {
+    width: 45%;
+  }
+
+}
+
+
+@media screen and (max-width: 568px) {
+  
+  .Main{
+    flex-direction: column;
+  }
+
+  .ProfilePhoto{
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+    
+  }
+
+  img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .ProfileSection{
+    padding: 7px;
+    flex-basis: auto;
+    margin: 10px;
+    height: auto;
+    border: none; 
+    text-align: center;
+  }
+ 
+  h1, p{
+     width: 100%;
+  }
+
+}
+
