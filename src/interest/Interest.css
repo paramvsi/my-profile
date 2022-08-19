@@ -1,0 +1,45 @@
+.InterestSection{
+    padding: 10px 120px;
+    text-align: center;
+}
+
+.InterestList{
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    justify-content: space-around;
+}
+
+.InterestItem{
+    list-style: none;
+}
+
+.InterestName{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .InterestSection{
+        padding: 30px ;
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 578px) {
+    .InterestSection{
+        padding: 0;
+        text-align: center;
+    }
+    .InterestList{
+        grid-template-columns: auto;
+        padding: 15px;
+     }
+
+     .InterestItem{
+        margin: 10px auto;
+     }
+}

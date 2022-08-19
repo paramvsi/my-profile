@@ -10,14 +10,14 @@ const Profile = ({ name }) => {
         <img src={MyPhoto} alt={name}></img>
       </div>
       <div className="ProfileSection">
-        <h1>Hi! I am {name}</h1>
+        <h1>Hi, I am {name}</h1>
         <p>
           A senior web developer working with a dynamic team in Touchnote. As a
           web dev I have crafted multiple web applications using my favorite
-          technologies. Creating huge web application is my passion but they are
-          difficult to maintain thats why I like to create them with scalable
-          qualities. I love when my web app works for all devices across globe,
-          and I have the skills to do so.
+          technologies. Creating web application is my passion but sometimes
+          they get difficult to maintain, that is why I like to create them with
+          scalable qualities. I love when my web app works for all devices
+          across globe, and I have the skills to do so.
         </p>
       </div>
     </div>
